@@ -12,7 +12,7 @@ Lately: what if a laptop could be an instrument you write as you play? What if a
 
 ### on the workbench
 
-**The Appliance Latent Space** · An experimental instrument in progress: a toaster, my own recorded sounds, sensors, and local AI. Building toward a live performance at [Futureproof](https://www.futureproof.website/).
+**The Appliance Latent Space** · An experimental instrument in progress: a toaster, my own recorded sounds, sensors, and local AI. Building toward a live performance at [Futureproof](https://www.futureproof.website/). [BC + AI Ecosystem](https://github.com/bc-ai-ecosystem)
 
 **Music through code** · Exploring playable systems for composition, sound, and visuals. An instrument that fits in a backpack.
 
