@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/suzy-pacific.png" width="100%" alt="Suzy Easton: Sound / Code / Pacific. Orcas in a moonlit ocean, Vancouver skyline, mountains and sound waves." />
+  <img src="assets/suzy-pacific.png" width="100%" alt="Suzy Easton rising from the ocean, wrapped in musical ribbons and reaching toward the stars." />
 </p>
 
 # hey, i'm suzy.
