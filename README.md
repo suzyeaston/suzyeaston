@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/suzy-pacific.png" width="100%" alt="Suzy Easton rising from the ocean, wrapped in musical ribbons and reaching toward the stars." />
+  <img src="assets/suzy-pacific.gif" width="100%" alt="Suzy in an iridescent flight jacket, reaching toward the stars above the Pacific and Vancouver skyline; gently twinkling lights." />
 </p>
 
 # hey, i'm suzy.
