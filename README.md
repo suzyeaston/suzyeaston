@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/suzy-pacific.gif" width="100%" alt="Suzy in an iridescent flight jacket, reaching toward the stars above the Pacific and Vancouver skyline; gently twinkling lights." />
+  <img src="assets/suzy-pacific.gif" width="100%" alt="Suzy making a cosmic goalie save in a retro Vancouver Canucks Flying Skate jersey above the Pacific and Vancouver skyline; gently twinkling lights." />
 </p>
 
 # hey, i'm suzy.
