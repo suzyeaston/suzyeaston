@@ -8,7 +8,7 @@
 
 I build practical systems, strange interfaces and instruments that blur software, music, local AI and the physical world. My path here runs through touring bands, recording with Steve Albini, QA automation, IT operations, cloud systems and applied AI.
 
-Right now the lab has a center of gravity:
+Right now the lab has a centre of gravity:
 
 > **make the computer feel like an instrument, make the toaster part of the band, and make the surrounding intelligence local, inspectable and mine.**
 
