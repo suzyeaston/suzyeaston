@@ -34,7 +34,7 @@ Current public issues point to the shortest path:
 8. [Prototype the ESP32 BLE controller bridge](https://github.com/suzyeaston/appliance-latent-space-live/issues/13)
 9. [Map toaster lever and browning control](https://github.com/suzyeaston/appliance-latent-space-live/issues/14)
 
-**Performance rule:** software instrument first, own-sound engine second, physical controller third, neural/AI layer only when it adds something musically real rather than jeopardizing the set.
+**Performance rule:** software instrument first, own-sound engine second, **wireless ESP32 toaster controller third**. The Mac remains the compute/audio brain; the toaster becomes a Bluetooth performance surface. Neural/AI layers only make the show if they add something musically real rather than jeopardizing the set.
 
 ### P1 · keep the nervous system coherent
 
@@ -53,7 +53,7 @@ Current public issues point to the shortest path:
 | Repository | Visibility | State | What it is | Next |
 | --- | --- | --- | --- | --- |
 | [suzyeaston](https://github.com/suzyeaston/suzyeaston) | public | **active** | GitHub profile + project mission control | Keep this page and the dated audit notes current. |
-| [appliance-latent-space-live](https://github.com/suzyeaston/appliance-latent-space-live) | public | **P0 / active** | Canonical public performance instrument | Rehearse, tune playability, own-sound engine, MIDI, then toaster control. |
+| [appliance-latent-space-live](https://github.com/suzyeaston/appliance-latent-space-live) | public | **P0 / active** | Canonical public performance instrument | Rehearse, tune playability, own-sound engine, MIDI, then ESP32 Bluetooth toaster control. |
 | appliance-latent-space | private | reference | Earlier private prototype/scaffold | Treat the public live repo as the canonical performance branch; preserve this as reference. |
 | [suzy-ai](https://github.com/suzyeaston/suzy-ai) | public | **active** | Local-first intelligence core / shared nervous system | App adapters, model interface/runtime, memory + retrieval. |
 | [suzy-world](https://github.com/suzyeaston/suzy-world) | public | **active** | Deliberately public knowledge layer / WordPress plugin | Publish a small real corpus of recovered reviews and refine schema from use. |
@@ -124,4 +124,3 @@ When a project changes meaningfully:
 3. add a dated note under [`notes/`](notes/) when a broader re-prioritization happens;
 4. include hard public deadlines only when they are actually confirmed;
 5. do not copy private raw context into this public repository.
-
