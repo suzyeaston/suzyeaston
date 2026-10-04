@@ -4,33 +4,85 @@
 
 # hey, i'm suzy.
 
-**Vancouver born. Bass player. Creative coder. Still making noise.**
+**Vancouver born. Bass player. AI strategist. Creative technologist. Still making noise.**
 
-I make instruments, strange little worlds, and software that earns its place. My background runs through touring bands, recording with Steve Albini, QA automation, IT operations, and applied AI. Music is the thread through all of it.
+I build practical systems, strange interfaces and instruments that blur software, music, local AI and the physical world. My path here runs through touring bands, recording with Steve Albini, QA automation, IT operations, cloud systems and applied AI.
 
-Lately: what if a laptop could be an instrument you write as you play? What if a toaster could become one too?
+Right now the lab has a center of gravity:
 
-### on the workbench
+> **make the computer feel like an instrument, make the toaster part of the band, and make the surrounding intelligence local, inspectable and mine.**
 
-**The Appliance Latent Space** · An experimental instrument in progress: a toaster, my own recorded sounds, sensors, and local AI. Building toward a live performance at [Futureproof](https://www.futureproof.website/). [BC + AI Ecosystem](https://github.com/bc-ai-ecosystem)
+## current signal · october 2026
 
-**Music through code** · Exploring playable systems for composition, sound, and visuals. An instrument that fits in a backpack.
+### 🛰️ The Appliance Latent Space · P0
 
-**[The public lab](https://github.com/suzyeaston/suzyeastonca)** · Music tools, practical automation, Vancouver experiments, and things that got interesting enough to build.
+A programmable audiovisual instrument moving toward a live set at **Futureproof Festival of AI** in Vancouver.
 
-**[City Space Adventure](https://github.com/suzyeaston/city-space-adventure)** · A little retro-futurist escape, built in Python and Pygame.
+**Hard date:** **October 29, 2026 · 13:25** at the H.R. MacMillan Space Centre.
 
-### behind the noise
+The software instrument already plays. The runway now is about making it *performable*: musical feel, personal sounds, reliable capture, MIDI, then the physical toaster control path.
 
-Python · JavaScript / TypeScript · Bash · PowerShell · SQL  
-Automation · APIs · cloud systems · creative AI · audio experiments
+→ [public performance repo](https://github.com/suzyeaston/appliance-latent-space-live)
 
-I like understanding how things work, finding the weird edge, and making something useful there.
+### 🧠 SUZY//AI
 
-### pacific frequency
+A local-first open intelligence core: shared event protocol, timelines, private world model and replaceable future model/runtime layers.
 
-Part of [DCTRL](https://www.dctrl.wtf/), Vancouver's hacker community. Inspired by places like [Basecamp](https://basecampyvr.ca/) that give people room to build.
+**Open machinery. Personally owned intelligence.**
 
-[suzyeaston.ca](https://suzyeaston.ca/) · [explore the repos](https://github.com/suzyeaston?tab=repositories)
+→ [suzyeaston/suzy-ai](https://github.com/suzyeaston/suzy-ai)
+
+### 🌐 SUZY//WORLD
+
+The deliberately public knowledge layer for SUZY//AI. It currently lives as a WordPress plugin/API, beginning with versioned album reviews and cultural knowledge.
+
+→ [suzyeaston/suzy-world](https://github.com/suzyeaston/suzy-world)
+
+### 👁️ POP//CONTEXT
+
+A local audiovisual evidence pipeline exploring how software might understand culture as more than transcripts with pictures attached.
+
+→ [suzyeaston/pop-context](https://github.com/suzyeaston/pop-context)
+
+### 🌊 Basecamp / continuity
+
+I’m currently building from a creative residency at Jericho Beach while developing a private capture and continuity system for field notes, decisions, experiments and the connective tissue between projects.
+
+The private systems stay private. The useful public artifacts graduate outward deliberately.
+
+## mission control
+
+I finally have enough simultaneous experiments that “what am I actually working on?” deserves its own file.
+
+→ **[PROJECTS.md](PROJECTS.md)** · all 13 repos, status, priorities, open work and deadlines  
+→ **[latest project audit](notes/2026-10-04-project-audit.md)** · why the current priorities look the way they do
+
+## the public lab
+
+[suzyeaston.ca](https://suzyeaston.ca/) is the bigger workshop. Current and recent experiments include:
+
+- **Lousy Outages** · independent outage intelligence for AI/cloud/creative tools
+- **Vancouver Tech Events** · local event discovery
+- **Salish Sea / YVR radar** · browser-based listening and place interface
+- **Loop Lab** · browser music / recording experiments
+- **Gastown Simulator** · civic data, sound and browser-world building
+- **Track Analyzer** · AI-assisted feedback for musicians
+- **MACHINE VISIONS** · public AI-art exhibition layer
+- **Skywhale Airways** · psychedelic film + web world with Kris Krüg
+
+→ [public site repository](https://github.com/suzyeaston/suzyeastonca)
+
+## behind the noise
+
+Python · JavaScript / TypeScript · Bash · PowerShell · PHP · SQL  
+Automation · APIs · cloud systems · QA · local AI · audio · creative tooling
+
+I like finding the part of a vague problem that can actually be built, tested, broken and made useful.
+
+## pacific frequency
+
+Part of [DCTRL](https://www.dctrl.wtf/) and the Vancouver creative-tech / AI community.
+
+[suzyeaston.ca](https://suzyeaston.ca/) · [all repositories](https://github.com/suzyeaston?tab=repositories)
 
 *Saltwater. Low frequencies. Source code.*
