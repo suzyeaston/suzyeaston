@@ -20,7 +20,7 @@ A programmable audiovisual instrument moving toward a live set at **Futureproof 
 
 **Hard date:** **October 29, 2026 · 13:25** at the H.R. MacMillan Space Centre.
 
-The software instrument already plays. The runway now is about making it *performable*: musical feel, personal sounds, reliable capture, MIDI, then the physical toaster control path.
+The software instrument already plays. Now I’m making it feel like a live object: personal sounds, performance capture, MIDI, and an **ESP32 inside the toaster turning the lever and browning dial into wireless Bluetooth gestures**. The Mac stays the brain. The toaster becomes the controller.
 
 → [public performance repo](https://github.com/suzyeaston/appliance-latent-space-live)
 
