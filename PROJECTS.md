@@ -123,4 +123,5 @@ When a project changes meaningfully:
 2. update the status row here;
 3. add a dated note under [`notes/`](notes/) when a broader re-prioritization happens;
 4. include hard public deadlines only when they are actually confirmed;
-5. do not copy private raw context into this public repository.
+5. do not copy private raw context into this public repository;
+6. use **Canadian English** in public prose: centre, colour, behaviour, licence, etc. Preserve product names, code identifiers and quoted source text exactly.
