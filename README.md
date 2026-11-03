@@ -1,88 +1,76 @@
 <p align="center">
-  <img src="assets/suzy-pacific.gif" width="100%" alt="Suzy making a cosmic goalie save in a retro Vancouver Canucks Flying Skate jersey above the Pacific and Vancouver skyline; gently twinkling lights." />
+  <img src="assets/suzy-pacific.gif" width="100%" alt="Animated retro-Pacific scene: Suzy makes a cosmic goalie save above Vancouver in a Canucks Flying Skate jersey." />
 </p>
 
-# hey, i'm suzy.
+# hey, i'm suzy. 🛸
 
-**Vancouver born. Bass player. AI strategist. Creative technologist. Still making noise.**
+**music // machines // vancouver**
 
-I build practical systems, strange interfaces and instruments that blur software, music, local AI and the physical world. My path here runs through touring bands, recording with Steve Albini, QA automation, IT operations, cloud systems and applied AI.
+Former professional bassist. Senior technical generalist. Creative technologist. Still making noise.
 
-Right now the lab has a centre of gravity:
+I used to tour in bands, live in recording studios and play bass through very large amplifiers. Now I build software, automation, cloud-connected systems and instruments that make computers feel a little less like computers.
 
-> **make the computer feel like an instrument, make the toaster part of the band, and make the surrounding intelligence local, inspectable and mine.**
+The route here involved recording with Steve Albini, QA automation, production incidents, IT operations, identity and security, applied AI, and several thousand lines of code written because I wanted to hear what would happen.
 
-## current signal · october 2026
+> **The musician is the orchestrator. AI is another instrument, not the conductor.**
 
-### 🛰️ The Appliance Latent Space · P0
+## now playing · november 2026
 
-A programmable audiovisual instrument moving toward a live set at **Futureproof Festival of AI** in Vancouver.
+### 🍞 SUZY//TOAST / The Appliance Latent Space
 
-**Hard date:** **October 29, 2026 · 13:25** at the H.R. MacMillan Space Centre.
+On **October 29, 2026**, I performed my first solo electronic set at **Futureproof Festival** at Vancouver's H.R. MacMillan Space Centre: an AI-integrated interpretation of Radiohead's *Pyramid Song* built around live vocals, generative textures and layered audio loops.
 
-The software instrument already plays. Now I’m making it feel like a live object: personal sounds, performance capture, MIDI, and an **ESP32 inside the toaster turning the lever and browning dial into wireless Bluetooth gestures**. The Mac stays the brain. The toaster becomes the controller.
+The instrument ran locally on an **8GB MacBook Pro**. Underneath the performance interface:
 
-→ [public performance repo](https://github.com/suzyeaston/appliance-latent-space-live)
+- **Google Magenta RealTime 2 Small** generating musical audio, steered by MIDI and text-conditioned sound prompts
+- A **Swift/macOS Audio Unit host**, **Python command bridge** and **JavaScript/Web Audio** performance surface
+- Chord pads, native PCM capture, independent audio-loop layers and a hands-on mixer
+- Live voice through a **Boss VE-22** and **Focusrite Scarlett Solo**
 
-### 🧠 SUZY//AI
+The original proposal involved turning an actual toaster into a physical instrument. The toaster didn't reach the stage. Its software descendants did. The hardware controller is still an experiment, not a finished product.
 
-A local-first open intelligence core: shared event protocol, timelines, private world model and replaceable future model/runtime layers.
+**[Explore SUZY//AI + TOASTER](https://github.com/suzyeaston/suzy-ai)** · [Read the engineering story](https://github.com/suzyeaston/suzyeastonca/blob/main/content/meanwhile/2026-11-an-orchestra-in-8gb.md) · [Read *The Toaster Was a Decoy*](https://www.suzyeaston.ca/2026/11/02/the-toaster-was-a-decoy/)
 
-**Open machinery. Personally owned intelligence.**
+The earlier [Appliance Latent Space browser instrument](https://github.com/suzyeaston/appliance-latent-space-live) is still part of the public experiment trail.
 
-→ [suzyeaston/suzy-ai](https://github.com/suzyeaston/suzy-ai)
+### 📡 SUZY//PIRATE RADIO
 
-### 🌐 SUZY//WORLD
+Building a little independent internet station for original music, improvisation, field recordings and conversations. The **receiver and relay code exist**; the public stream isn't connected yet. No fake "live" broadcasts, no algorithm deciding what plays next.
 
-The deliberately public knowledge layer for SUZY//AI. It currently lives as a WordPress plugin/API, beginning with versioned album reviews and cultural knowledge.
+**[Visit the receiver](https://www.suzyeaston.ca/radio/)** · [Explore the code](https://github.com/suzyeaston/suzyeastonca/tree/main/radio-station)
 
-→ [suzyeaston/suzy-world](https://github.com/suzyeaston/suzy-world)
+## other signals from the lab
 
-### 👁️ POP//CONTEXT
+| Project | Frequency |
+| --- | --- |
+| [**SUZY//AI**](https://github.com/suzyeaston/suzy-ai) | Open-source, local-first experiments in musical interaction, models, memory, MIDI and human-led performance. |
+| [**POP//CONTEXT**](https://github.com/suzyeaston/pop-context) | An audiovisual evidence/input pipeline for SUZY//AI. Media observations are local and inspectable; integration into shared interpretation is still evolving. |
+| [**SUZY//WORLD**](https://github.com/suzyeaston/suzy-world) | A deliberately published knowledge layer, built as a WordPress plugin with structured music entities, reviews and an API. |
+| [**Lousy Outages**](https://www.suzyeaston.ca/lousy-outages/) | Independent status intelligence for cloud, AI and creative services. Because “all systems operational” isn't always the whole story. |
+| [**suzyeaston.ca**](https://github.com/suzyeaston/suzyeastonca) | Custom WordPress/PHP and JavaScript workshop: Gastown Simulator, Loop Lab, Track Analyzer, Vancouver Tech Events, arcade experiments and field notes. |
+| [**Skywhale Airways**](https://github.com/suzyeaston/skywhale-airways) | The weird, beautiful web-world orbiting *I AM NOMAD*, a psychedelic film made with Kris Krüg. 🐋 |
 
-A local audiovisual evidence pipeline exploring how software might understand culture as more than transcripts with pictures attached.
+These are experiments at different stages, not six products pretending to be finished. I like working in public, keeping the useful bits legible, and allowing an idea to change shape.
 
-→ [suzyeaston/pop-context](https://github.com/suzyeaston/pop-context)
+## meanwhile, in the engine room
 
-### 🌊 Basecamp / continuity
+For **12+ years**, I've worked across support engineering, QA automation, IT operations, SaaS platforms, infrastructure and applied AI.
 
-I’m currently building from a creative residency at Jericho Beach while developing a private capture and continuity system for field notes, decisions, experiments and the connective tissue between projects.
+Most recently that has included **AI strategy and solutions engineering at Quercus IT**, working with Azure-hosted workflows, integrations and governance; **senior IT operations at Alida**, across Entra ID, Microsoft 365, endpoint management, security and automation; and earlier **software/QA and platform work at WineDirect**.
 
-The private systems stay private. The useful public artifacts graduate outward deliberately.
+`Python` · `JavaScript / TypeScript` · `Swift` · `PowerShell` · `Bash` · `PHP` · `SQL / KQL`  
+`Azure` · `AWS` · `Microsoft 365 / Entra` · `Intune / Defender` · `APIs` · `GitHub Actions` · `Cypress` · `Web Audio`
 
-## mission control
+I like the complicated problems that live *between* disciplines: the integration nobody owns, the production bug nobody can reproduce, the musical idea that needs a new control surface, the workflow that could be a dozen lines of Python instead.
 
-I finally have enough simultaneous experiments that “what am I actually working on?” deserves its own file.
+I'm interested in engineering, platform/IT, automation and applied-AI roles where that range is useful.
 
-→ **[PROJECTS.md](PROJECTS.md)** · all 13 repos, status, priorities, open work and deadlines  
-→ **[latest project audit](notes/2026-10-04-project-audit.md)** · why the current priorities look the way they do
+## the low frequencies
 
-## the public lab
+Before all this, I played bass in Vancouver bands including **Minto / The Smokes**, toured Canada, appeared on MuchMusic and recorded in Chicago with **Steve Albini**. I studied recording technology, composition and improvisation. I still approach systems a little like arrangements: listen carefully, find the pulse, leave room, and know when to mute a track.
 
-[suzyeaston.ca](https://suzyeaston.ca/) is the bigger workshop. Current and recent experiments include:
+Vancouver is home. I'm part of its creative-tech orbit, including **DCTRL** and **BC + AI**.
 
-- **Lousy Outages** · independent outage intelligence for AI/cloud/creative tools
-- **Vancouver Tech Events** · local event discovery
-- **Salish Sea / YVR radar** · browser-based listening and place interface
-- **Loop Lab** · browser music / recording experiments
-- **Gastown Simulator** · civic data, sound and browser-world building
-- **Track Analyzer** · AI-assisted feedback for musicians
-- **MACHINE VISIONS** · public AI-art exhibition layer
-- **Skywhale Airways** · psychedelic film + web world with Kris Krüg
-
-→ [public site repository](https://github.com/suzyeaston/suzyeastonca)
-
-## behind the noise
-
-Python · JavaScript / TypeScript · Bash · PowerShell · PHP · SQL  
-Automation · APIs · cloud systems · QA · local AI · audio · creative tooling
-
-I like finding the part of a vague problem that can actually be built, tested, broken and made useful.
-
-## pacific frequency
-
-Part of [DCTRL](https://www.dctrl.wtf/) and the Vancouver creative-tech / AI community.
-
-[suzyeaston.ca](https://suzyeaston.ca/) · [all repositories](https://github.com/suzyeaston?tab=repositories)
+**[suzyeaston.ca](https://www.suzyeaston.ca/)** · [Meanwhile / field notes](https://www.suzyeaston.ca/meanwhile/) · [Music](https://suzyeaston.bandcamp.com/) · [All repositories](https://github.com/suzyeaston?tab=repositories)
 
 *Saltwater. Low frequencies. Source code.*
