@@ -48,7 +48,7 @@ em{color:var(--fg);font-style:normal}
 <h1>FOUR<br><span>AXES.</span></h1>
 <p class="lede">The graph is the instrument. The work is the score.</p>
 <p class="note">GitHub turns a year of engineering into four numbers. They are not skill, care, generosity, or difficulty. Here we let them become geometry and sound.</p>
-<p class="note">INITIAL SCORE / 07 NOV 2026 / 72 commits · 27 pull requests · 1 issues · 0 reviews. These are <em>percentages from a screenshot</em>, not GitHub API counts or live telemetry.</p>
+<p class="note">INITIAL SCORE / 07 NOV 2026 / 72 commits · 27 pull requests · 1 issue · 0 reviews. These are <em>percentages from a screenshot</em>, not GitHub API counts or live telemetry.</p>
 </section>
 <section aria-label="The four axis score">
 <svg id="machine" viewBox="0 0 720 635" role="img" aria-labelledby="graphic-title graphic-desc">
@@ -124,7 +124,7 @@ voices=ids.map((_,i)=>{const osc=audio.createOscillator(),gain=audio.createGain(
 await audio.resume();refresh();document.body.classList.add("pulsing");document.getElementById("play").textContent="■ STOP THE SCORE";document.getElementById("play").setAttribute("aria-pressed","true")});
 document.getElementById("reset").addEventListener("click",()=>{inputs.forEach((input,i)=>input.value=base[i]);refresh()});
 document.getElementById("export").addEventListener("click",()=>{
-const clone=svg.cloneNode(true);clone.querySelector("#shape").setAttribute("style","fill:#44e89755;stroke:#cbf76d;stroke-width:3");clone.setAttribute("xmlns",ns);
+const clone=svg.cloneNode(true);clone.querySelector("#shape").setAttribute("style","fill:#44e89755;stroke:#cbf76d;stroke-width:3");clone.querySelectorAll(".echo").forEach(el=>el.setAttribute("style","fill:none;stroke:#58ebae;stroke-opacity:.33;stroke-width:1"));clone.setAttribute("xmlns",ns);
 const bg=element("rect",{width:"720",height:"635",fill:"#07100e"},clone);clone.insertBefore(bg,clone.firstChild);
 const payload='<?xml version="1.0" encoding="UTF-8"?>\n'+new XMLSerializer().serializeToString(clone);
 const url=URL.createObjectURL(new Blob([payload],{type:"image/svg+xml;charset=utf-8"}));const a=document.createElement("a");a.href=url;a.download="four-axes-score.svg";a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)});
