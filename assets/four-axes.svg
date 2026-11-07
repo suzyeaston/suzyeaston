@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="art-title art-desc">
+<title id="art-title">FOUR AXES / A portrait of asymmetric labour</title>
+<desc id="art-desc">An original diagrammatic artwork derived from a snapshot of Suzy Easton's GitHub activity overview, 72 percent commits, 27 percent pull requests, 1 percent issues and 0 percent code reviews. The irregular green shape is weighted left; this is a dated interpretation, not a live GitHub statistic.</desc>
+<defs>
+  <linearGradient id="dark" x2="1" y2="1"><stop stop-color="#030b0e"/><stop offset=".5" stop-color="#0a1513"/><stop offset="1" stop-color="#07100d"/></linearGradient>
+  <linearGradient id="spec" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c8ff61"/><stop offset=".5" stop-color="#35e4a7"/><stop offset="1" stop-color="#8ecbff"/></linearGradient>
+  <radialGradient id="smoke"><stop stop-color="#40fbb1" stop-opacity=".24"/><stop offset="1" stop-color="#40fbb1" stop-opacity="0"/></radialGradient>
+  <pattern id="mesh" patternUnits="userSpaceOnUse" width="22" height="22"><circle cx="1.5" cy="1.5" r=".8" fill="#d0ffee" opacity=".12"/></pattern>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<rect width="1200" height="520" fill="url(#dark)"/>
+<rect width="1200" height="520" fill="url(#mesh)"/>
+<path d="M34 34H1166V486H34Z" fill="none" stroke="#7fdcb0" stroke-opacity=".28"/>
+<path d="M535 34V486" stroke="#7fdcb0" stroke-opacity=".27"/>
+<text x="65" y="75" fill="#bdf9d5" font-family="monospace" font-size="13" letter-spacing="5">SUZY EASTON // FIELD SCORE 001</text>
+<text x="65" y="150" fill="#eaffdb" font-family="sans-serif" font-weight="750" font-size="75" letter-spacing="-4">FOUR</text>
+<text x="65" y="223" fill="#eaffdb" font-family="sans-serif" font-weight="750" font-size="75" letter-spacing="-4">AXES.</text>
+<path d="M65 245H495" stroke="url(#spec)" stroke-width="2"/>
+<text x="65" y="278" fill="#a8d1b7" font-family="monospace" font-size="15">a portrait of asymmetric labour</text>
+<text x="65" y="315" fill="#eaffdb" font-family="sans-serif" font-size="20">not a productivity score.</text>
+<text x="65" y="344" fill="#eaffdb" font-family="sans-serif" font-size="20">a performance of what gets counted.</text>
+<text x="65" y="419" fill="#c8ff61" font-family="monospace" font-size="14">72 : 27 : 01 : 00</text>
+<text x="65" y="444" fill="#7ba68e" font-family="monospace" font-size="12">GITHUB ACTIVITY SNAPSHOT / 07 NOV 2026</text>
+<circle cx="843" cy="266" r="265" fill="url(#smoke)"/>
+<circle cx="843" cy="266" r="52" fill="none" stroke="#b0e8d0" stroke-opacity=".10" stroke-dasharray="2 10"/>
+<circle cx="843" cy="266" r="103" fill="none" stroke="#b0e8d0" stroke-opacity=".10" stroke-dasharray="2 10"/>
+<circle cx="843" cy="266" r="154" fill="none" stroke="#b0e8d0" stroke-opacity=".10" stroke-dasharray="2 10"/>
+<circle cx="843" cy="266" r="205" fill="none" stroke="#b0e8d0" stroke-opacity=".10" stroke-dasharray="2 10"/>
+<path d="M 958.0 266.0 L 1073.0 266.0" stroke="#8dfcc2" stroke-opacity="0.12" stroke-width="1"/>
+<path d="M 978.2 285.4 L 1070.5 298.7" stroke="#8dfcc2" stroke-opacity="0.08" stroke-width="1"/>
+<path d="M 939.3 294.3 L 1063.0 330.6" stroke="#8dfcc2" stroke-opacity="0.10" stroke-width="1"/>
+<path d="M 937.0 308.9 L 1050.7 360.9" stroke="#8dfcc2" stroke-opacity="0.15" stroke-width="1"/>
+<path d="M 958.8 340.4 L 1034.1 388.8" stroke="#8dfcc2" stroke-opacity="0.16" stroke-width="1"/>
+<path d="M 927.2 338.9 L 1013.6 413.8" stroke="#8dfcc2" stroke-opacity="0.11" stroke-width="1"/>
+<path d="M 905.1 337.7 L 989.7 435.3" stroke="#8dfcc2" stroke-opacity="0.08" stroke-width="1"/>
+<path d="M 914.5 377.3 L 963.1 452.9" stroke="#8dfcc2" stroke-opacity="0.10" stroke-width="1"/>
+<path d="M 894.3 378.2 L 934.5 466.3" stroke="#8dfcc2" stroke-opacity="0.15" stroke-width="1"/>
+<path d="M 868.9 354.3 L 904.5 475.3" stroke="#8dfcc2" stroke-opacity="0.15" stroke-width="1"/>
+<path d="M 860.4 387.0 L 873.8 480.0" stroke="#8dfcc2" stroke-opacity="0.11" stroke-width="1"/>
+<path d="M 843.0 399.1 L 843.0 480.3" stroke="#8dfcc2" stroke-opacity="0.08" stroke-width="1"/>
+<path d="M 829.4 360.5 L 812.8 476.4" stroke="#8dfcc2" stroke-opacity="0.11" stroke-width="1"/>
+<path d="M 812.0 371.7 L 783.5 468.5" stroke="#8dfcc2" stroke-opacity="0.15" stroke-width="1"/>
+<path d="M 785.8 391.3 L 755.9 456.8" stroke="#8dfcc2" stroke-opacity="0.15" stroke-width="1"/>
+<path d="M 786.5 353.8 L 730.1 441.7" stroke="#8dfcc2" stroke-opacity="0.10" stroke-width="1"/>
+<path d="M 777.9 341.1 L 706.6 423.4" stroke="#8dfcc2" stroke-opacity="0.08" stroke-width="1"/>
+<path d="M 740.1 355.2 L 685.8 402.2" stroke="#8dfcc2" stroke-opacity="0.11" stroke-width="1"/>
+<path d="M 745.2 328.9 L 667.9 378.5" stroke="#8dfcc2" stroke-opacity="0.16" stroke-width="1"/>
+<path d="M 758.4 304.6 L 653.2 352.7" stroke="#8dfcc2" stroke-opacity="0.15" stroke-width="1"/>
+<path d="M 719.5 302.3 L 642.0 325.0" stroke="#8dfcc2" stroke-opacity="0.10" stroke-width="1"/>
+<path d="M 716.5 284.2 L 634.5 296.0" stroke="#8dfcc2" stroke-opacity="0.08" stroke-width="1"/>
+<path d="M 750.3 266.0 L 630.9 266.0" stroke="#8dfcc2" stroke-opacity="0.12" stroke-width="1"/>
+<path d="M 726.8 249.3 L 631.4 235.6" stroke="#8dfcc2" stroke-opacity="0.16" stroke-width="1"/>
+<path d="M 712.8 227.8 L 636.2 205.3" stroke="#8dfcc2" stroke-opacity="0.14" stroke-width="1"/>
+<path d="M 753.3 225.1 L 645.1 175.6" stroke="#8dfcc2" stroke-opacity="0.10" stroke-width="1"/>
+<path d="M 754.3 209.0 L 658.3 147.3" stroke="#8dfcc2" stroke-opacity="0.08" stroke-width="1"/>
+<path d="M 738.8 175.7 L 675.6 120.9" stroke="#8dfcc2" stroke-opacity="0.12" stroke-width="1"/>
+<path d="M 771.6 183.6 L 696.7 97.1" stroke="#8dfcc2" stroke-opacity="0.16" stroke-width="1"/>
+<path d="M 791.0 185.1 L 721.2 76.5" stroke="#8dfcc2" stroke-opacity="0.14" stroke-width="1"/>
+<path d="M 787.4 144.3 L 748.8 59.7" stroke="#8dfcc2" stroke-opacity="0.09" stroke-width="1"/>
+<path d="M 808.9 149.8 L 778.8 47.2" stroke="#8dfcc2" stroke-opacity="0.09" stroke-width="1"/>
+<path d="M 829.9 174.9 L 810.4 39.3" stroke="#8dfcc2" stroke-opacity="0.13" stroke-width="1"/>
+<path d="M 843.0 141.6 L 843.0 36.3" stroke="#8dfcc2" stroke-opacity="0.16" stroke-width="1"/>
+<path d="M 861.7 135.8 L 875.7 38.4" stroke="#8dfcc2" stroke-opacity="0.13" stroke-width="1"/>
+<path d="M 869.6 175.5 L 907.8 45.4" stroke="#8dfcc2" stroke-opacity="0.09" stroke-width="1"/>
+<path d="M 889.7 163.7 L 938.3 57.3" stroke="#8dfcc2" stroke-opacity="0.09" stroke-width="1"/>
+<path d="M 917.3 150.4 L 966.6 73.6" stroke="#8dfcc2" stroke-opacity="0.13" stroke-width="1"/>
+<path d="M 910.0 188.6 L 992.0 94.0" stroke="#8dfcc2" stroke-opacity="0.16" stroke-width="1"/>
+<path d="M 919.5 199.7 L 1013.9 117.9" stroke="#8dfcc2" stroke-opacity="0.13" stroke-width="1"/>
+<path d="M 958.2 191.9 L 1031.9 144.6" stroke="#8dfcc2" stroke-opacity="0.09" stroke-width="1"/>
+<path d="M 946.6 218.7 L 1045.6 173.5" stroke="#8dfcc2" stroke-opacity="0.09" stroke-width="1"/>
+<path d="M 933.0 239.6 L 1054.8 203.8" stroke="#8dfcc2" stroke-opacity="0.14" stroke-width="1"/>
+<path d="M 972.2 247.4 L 1059.5 234.9" stroke="#8dfcc2" stroke-opacity="0.16" stroke-width="1"/>
+<path d="M843 56 V475 M604 266H1094" stroke="#d7ffdd" stroke-opacity=".24" stroke-width="1.2"/>
+<path d="M843 262L849.6111111111111 266L843 340.5L651 266Z" fill="#5fffa0" stroke="#5fffa0" stroke-opacity=".5" stroke-width="8" filter="url(#glow)" opacity=".6"/>
+<polygon points="843.0,262.0 849.6,266.0 843.0,340.5 651.0,266.0" fill="#32df96" fill-opacity=".26" stroke="url(#spec)" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="843.0,262.0 849.6,266.0 843.0,340.5 651.0,266.0" fill="none" stroke="#d7ff7f" stroke-opacity=".3" stroke-dasharray="3 12" stroke-width="11" transform="translate(3 1)"/>
+<circle cx="843" cy="262" r="5" fill="#a9d3ff" stroke="#07130c" stroke-width="2"/><circle cx="849.6111111111111" cy="266" r="5" fill="#a9d3ff" stroke="#07130c" stroke-width="2"/><circle cx="843" cy="340.5" r="5" fill="#c8ff61" stroke="#07130c" stroke-width="2"/><circle cx="651" cy="266" r="5" fill="#c8ff61" stroke="#07130c" stroke-width="2"/>
+<circle cx="843" cy="266" r="7" fill="#eaffdb"/><circle cx="843" cy="266" r="2" fill="#03100c"/>
+<g font-family="monospace" font-size="13" letter-spacing="1.5" fill="#eaffdb">
+<text x="843" y="41" text-anchor="middle">REVIEW 00%</text>
+<text x="1083" y="250" text-anchor="middle">ISSUE 01%</text>
+<text x="843" y="503" text-anchor="middle">PULL 27%</text>
+<text x="590" y="250" text-anchor="middle">COMMIT 72%</text>
+</g>
+<text x="1145" y="463" text-anchor="end" font-family="monospace" font-size="10" fill="#6d9b82">THE EMPTY AXIS IS NOT EMPTY WORK</text>
+</svg>
