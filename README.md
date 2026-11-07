@@ -14,6 +14,14 @@ The route here involved recording with Steve Albini, QA automation, production i
 
 > **The musician is the orchestrator. AI is another instrument, not the conductor.**
 
+## four axes / field score 001
+
+[![FOUR AXES, a portrait of asymmetric labour (GitHub activity score, 7 November 2026)](assets/four-axes.svg)](experiments/four-axes/README.md)
+
+An audiovisual study of GitHub's **Activity overview** as a four-channel instrument. The shape above is a dated snapshot, **not** a live graph: 72% commits, 27% pull requests, 1% issues, 0% reviews. What gets counted is not necessarily what matters.
+
+**[Open the score + playable HTML source](experiments/four-axes/README.md)** · [View the SVG full-size](assets/four-axes.svg)
+
 ## now playing · november 2026
 
 ### 🍞 SUZY//TOAST / The Appliance Latent Space
