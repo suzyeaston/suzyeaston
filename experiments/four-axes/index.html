@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>FOUR AXES / a portrait of asymmetric labour</title>
+<style>
+:root{--bg:#07100e;--fg:#e8ffe6;--dim:#8ba999;--line:#365344;--lime:#cbf76d;--aqua:#58ebae;--blue:#a7d8ff}
+*{box-sizing:border-box}html{background:var(--bg)}body{margin:0;color:var(--fg);font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace;background:radial-gradient(circle at 72% 45%,#173b30 0,transparent 40%),#07100e;min-height:100vh}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background-image:radial-gradient(#c7ffdf23 .75px,transparent .75px);background-size:17px 17px}
+a{color:var(--lime)}button{cursor:pointer}button:focus-visible,input:focus-visible{outline:3px solid var(--lime);outline-offset:3px}
+.shell{max-width:1320px;padding:24px 35px 50px;margin:auto;position:relative}
+.top{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding-bottom:15px;font-size:12px;letter-spacing:.16em;color:var(--dim);gap:16px}
+.seal{border:1px solid var(--lime);padding:8px 11px;color:var(--lime);white-space:nowrap}
+main{display:grid;grid-template-columns:minmax(290px,420px) minmax(400px,1fr);gap:5vw;align-items:center;padding:47px 0 18px}
+.kicker{color:var(--lime);font-size:13px;letter-spacing:.19em}
+h1{font-family:Arial,Helvetica,sans-serif;font-size:clamp(70px,8vw,132px);line-height:.84;letter-spacing:-.095em;margin:30px 0 24px;font-weight:800}
+h1 span{color:var(--lime)}
+.lede{font:400 clamp(19px,2.3vw,26px)/1.35 Arial,sans-serif;max-width:390px;letter-spacing:-.02em}
+.note{color:var(--dim);font-size:12px;line-height:1.8;max-width:400px}
+#machine{width:100%;height:auto;display:block;overflow:visible}
+#shape{fill:#43e79d44;stroke:var(--lime);stroke-width:3;stroke-linejoin:round;filter:drop-shadow(0 0 9px #54ffa14d);transition:points .45s ease}
+.echo{fill:none;stroke:var(--aqua);stroke-width:1;stroke-opacity:.33}
+#pulse{opacity:.25;transform-origin:360px 315px}
+.pulsing #pulse{animation:breathe 2.6s ease-in-out infinite alternate}
+@keyframes breathe{to{transform:scale(1.3);opacity:.7}}
+.controls{border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px;padding-top:25px}
+.control{min-width:0}.control label{display:flex;justify-content:space-between;gap:10px;font-size:13px;color:var(--fg);margin-bottom:8px}.control output{color:var(--lime)}
+input[type=range]{width:100%;accent-color:var(--lime);cursor:pointer}
+.actions{display:flex;gap:13px;flex-wrap:wrap;align-items:center;margin:32px 0 26px}
+button{background:var(--lime);border:1px solid var(--lime);color:#06110e;padding:13px 19px;font:700 13px ui-monospace,monospace;letter-spacing:.04em}
+button.secondary{background:transparent;color:var(--fg);border-color:var(--line)}
+button[aria-pressed=true]{background:#f8ad70;color:#19110c;border-color:#f8ad70}
+#readout{letter-spacing:.1em;color:var(--dim);font-size:12px}
+footer{border-top:1px solid var(--line);padding-top:20px;color:var(--dim);line-height:1.7;max-width:990px;font-size:12px}
+em{color:var(--fg);font-style:normal}
+@media(max-width:850px){.shell{padding:20px}.top{font-size:10px}main{grid-template-columns:1fr;gap:8px;padding-top:30px}#machine{max-width:700px;margin:auto}.controls{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:25px}h1{font-size:80px;margin-top:20px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="shell">
+<header class="top"><span>SUZY EASTON / FIELD SCORE 001</span><span class="seal">FOUR-CHANNEL STUDY</span></header>
+<main>
+<section>
+<div class="kicker">AN EXPERIMENT IN MEASURED BEHAVIOUR</div>
+<h1>FOUR<br><span>AXES.</span></h1>
+<p class="lede">The graph is the instrument. The work is the score.</p>
+<p class="note">GitHub turns a year of engineering into four numbers. They are not skill, care, generosity, or difficulty. Here we let them become geometry and sound.</p>
+<p class="note">INITIAL SCORE / 07 NOV 2026 / 72 commits · 27 pull requests · 1 issues · 0 reviews. These are <em>percentages from a screenshot</em>, not GitHub API counts or live telemetry.</p>
+</section>
+<section aria-label="The four axis score">
+<svg id="machine" viewBox="0 0 720 635" role="img" aria-labelledby="graphic-title graphic-desc">
+<title id="graphic-title">Editable four-axis contribution score</title>
+<desc id="graphic-desc">A lopsided four-way shape. Its arms correspond to normalized activity proportions. Adjust the sliders to change it.</desc>
+<defs><radialGradient id="haze"><stop stop-color="#50ffad" stop-opacity=".24"/><stop offset="1" stop-color="#50ffad" stop-opacity="0"/></radialGradient></defs>
+<circle cx="360" cy="315" r="295" fill="url(#haze)"/>
+<g id="reticle" fill="none" stroke="#b7ffe0" stroke-opacity=".17" stroke-width="1">
+<circle cx="360" cy="315" r="65"/><circle cx="360" cy="315" r="130"/><circle cx="360" cy="315" r="195"/><circle cx="360" cy="315" r="260"/>
+<path d="M360 25V605M70 315H650"/>
+</g>
+<g id="spokes"></g>
+<g id="trails"></g>
+<polygon id="shape" points="360,315 360,315 360,315 360,315"/>
+<circle id="pulse" cx="360" cy="315" r="12" fill="#d8ff91"/>
+<circle cx="360" cy="315" r="3" fill="#06120d"/>
+<g fill="#e8ffe6" font-family="monospace" font-size="15" letter-spacing="2">
+<text x="360" y="22" text-anchor="middle">REVIEWS / NORTH</text>
+<text x="715" y="306" text-anchor="end">ISSUES / EAST</text>
+<text x="360" y="627" text-anchor="middle">PULLS / SOUTH</text>
+<text x="4" y="306">COMMITS / WEST</text>
+</g>
+</svg>
+</section>
+</main>
+<section class="controls" aria-label="Shape composition controls">
+<div class="control"><label for="commits">COMMITS <output id="commits-out">72%</output></label><input id="commits" data-channel="commits" aria-label="Commits proportion input" type="range" min="0" max="100" value="72"></div>
+<div class="control"><label for="pulls">PULL REQUESTS <output id="pulls-out">27%</output></label><input id="pulls" data-channel="pulls" aria-label="Pull requests proportion input" type="range" min="0" max="100" value="27"></div>
+<div class="control"><label for="issues">ISSUES <output id="issues-out">1%</output></label><input id="issues" data-channel="issues" aria-label="Issues proportion input" type="range" min="0" max="100" value="1"></div>
+<div class="control"><label for="reviews">CODE REVIEWS <output id="reviews-out">0%</output></label><input id="reviews" data-channel="reviews" aria-label="Code reviews proportion input" type="range" min="0" max="100" value="0"></div>
+</section>
+<div class="actions">
+<button id="play" type="button" aria-pressed="false">▶ PLAY THE SCORE</button>
+<button id="reset" class="secondary" type="button">↺ RESET SNAPSHOT</button>
+<button id="export" class="secondary" type="button">↓ EXPORT SVG</button>
+<output id="readout" aria-live="polite">SCORE: 72 / 27 / 01 / 00</output>
+</div>
+<footer>
+<p><em>This is a score, not a productivity metric.</em> Adjusting the controls alters this local artwork, never your actual GitHub activity. The sound is original four-oscillator synthesis generated only after you press play; nothing is streamed or collected. Original score by Suzy Easton, 2026.</p>
+<p>Source: <a href="https://github.com/suzyeaston/suzyeaston">GitHub profile</a> · <a href="https://docs.github.com/en/account-and-profile/reference/profile-contributions-reference">GitHub contribution criteria</a>. Works offline. No libraries, cookies, trackers, API keys or model calls.</p>
+</footer>
+</div>
+<script>
+"use strict";
+const ids=["commits","pulls","issues","reviews"];
+const base=[72,27,1,0];
+const inputs=ids.map(id=>document.getElementById(id));
+const ns="http://www.w3.org/2000/svg",svg=document.getElementById("machine");
+const trails=document.getElementById("trails"),spokes=document.getElementById("spokes"),shape=document.getElementById("shape");
+let audio=null,voices=[],master=null;
+function element(name,attrs,parent){const el=document.createElementNS(ns,name);for(const [k,v] of Object.entries(attrs))el.setAttribute(k,v);parent.appendChild(el);return el}
+for(let i=0;i<48;i++){const a=i*Math.PI/24;const r1=130+30*Math.sin(i*11);const r2=265+12*Math.sin(i*7);element("line",{x1:360+Math.cos(a)*r1,y1:315+Math.sin(a)*r1,x2:360+Math.cos(a)*r2,y2:315+Math.sin(a)*r2,stroke:"#8eeac2","stroke-opacity":0.08+0.12*(i%5)/5},spokes)}
+const polylines=Array.from({length:7},()=>element("polygon",{class:"echo"},trails));
+function values(){return inputs.map(input=>Number(input.value))}
+function normalized(){const vals=values(),sum=vals.reduce((a,b)=>a+b,0);return sum?vals.map(x=>x*100/sum):[0,0,0,0]}
+function coords(vals,scale=1,rot=0){const axes=[Math.PI,Math.PI/2,0,-Math.PI/2];return vals.map((v,i)=>{const angle=axes[i]+rot,rad=8+v*2.5*scale;return [(360+Math.cos(angle)*rad).toFixed(1),(315+Math.sin(angle)*rad).toFixed(1)].join(",")}).join(" ")}
+function refresh(){
+const v=normalized(),raw=values();
+shape.setAttribute("points",coords(v));
+polylines.forEach((el,i)=>el.setAttribute("points",coords(v,1+i*.035,(i-3)*.022)));
+inputs.forEach((input,i)=>{document.getElementById(ids[i]+"-out").textContent=v[i].toFixed(1)+"%";input.setAttribute("aria-valuetext",v[i].toFixed(1)+" percent of current score")});
+document.getElementById("readout").textContent="SCORE: "+v.map(x=>String(Math.round(x)).padStart(2,"0")).join(" / ");
+if(audio)voices.forEach((voice,i)=>{voice.gain.gain.setTargetAtTime(v[i]/100*.13,audio.currentTime,.07);voice.osc.frequency.setTargetAtTime([55,110,165,220][i]*(1+v[i]/300),audio.currentTime,.08)})}
+inputs.forEach(i=>i.addEventListener("input",refresh));
+function stopAudio(){if(!audio)return;voices.forEach(v=>{try{v.osc.stop()}catch(e){}});audio.close();audio=null;voices=[];master=null;document.body.classList.remove("pulsing");document.getElementById("play").textContent="▶ PLAY THE SCORE";document.getElementById("play").setAttribute("aria-pressed","false")}
+document.getElementById("play").addEventListener("click",async()=>{
+if(audio){stopAudio();return}
+const Context=window.AudioContext||window.webkitAudioContext;
+if(!Context){document.getElementById("readout").textContent="WEB AUDIO NOT SUPPORTED";return}
+audio=new Context();master=audio.createGain();master.gain.value=.43;master.connect(audio.destination);
+const waves=["sine","triangle","sine","triangle"];
+voices=ids.map((_,i)=>{const osc=audio.createOscillator(),gain=audio.createGain();osc.type=waves[i];osc.frequency.value=[55,110,165,220][i];gain.gain.value=0;osc.connect(gain);gain.connect(master);osc.start();return{osc,gain}});
+await audio.resume();refresh();document.body.classList.add("pulsing");document.getElementById("play").textContent="■ STOP THE SCORE";document.getElementById("play").setAttribute("aria-pressed","true")});
+document.getElementById("reset").addEventListener("click",()=>{inputs.forEach((input,i)=>input.value=base[i]);refresh()});
+document.getElementById("export").addEventListener("click",()=>{
+const clone=svg.cloneNode(true);clone.querySelector("#shape").setAttribute("style","fill:#44e89755;stroke:#cbf76d;stroke-width:3");clone.setAttribute("xmlns",ns);
+const bg=element("rect",{width:"720",height:"635",fill:"#07100e"},clone);clone.insertBefore(bg,clone.firstChild);
+const payload='<?xml version="1.0" encoding="UTF-8"?>\n'+new XMLSerializer().serializeToString(clone);
+const url=URL.createObjectURL(new Blob([payload],{type:"image/svg+xml;charset=utf-8"}));const a=document.createElement("a");a.href=url;a.download="four-axes-score.svg";a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)});
+window.addEventListener("pagehide",stopAudio);
+refresh();
+</script>
+</body>
+</html>
